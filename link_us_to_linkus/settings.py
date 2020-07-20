@@ -25,8 +25,9 @@ SECRET_KEY = 'sdt8l8tfaza@qph@d$c^xaui8n*jxkg75r!m1rhjed_em42a(j'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+APPEND_SLASH = True
 
+ALLOWED_HOSTS = ['linkus7.com', 'localhost']
 
 # Application definition
 
