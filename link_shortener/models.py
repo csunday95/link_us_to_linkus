@@ -22,7 +22,6 @@ class ShortenedURLModel(models.Model):
     )
     full_url = models.URLField(
         max_length=FULL_URL_MAX_LENGTH,
-        unique=True,
         verbose_name='Full URL',
         help_text='The full URL that will be redirected to'
     )
