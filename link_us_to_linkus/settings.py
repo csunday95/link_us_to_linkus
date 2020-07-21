@@ -27,7 +27,7 @@ DEBUG = False
 
 APPEND_SLASH = True
 
-ALLOWED_HOSTS = ['linkus7.com', 'localhost']
+ALLOWED_HOSTS = ['linkus7.com', 'www.linkus7.com', 'localhost']
 
 # Application definition
 

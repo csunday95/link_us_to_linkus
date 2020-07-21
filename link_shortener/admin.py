@@ -10,6 +10,7 @@ class ShortenedURLAdmin(admin.ModelAdmin):
     list_display = ('entry_name', 'full_url', 'shortened_url_slug', 'created_by')
     list_filter = ('created_by', )
     exclude = ('created_by', )
+    search_fields = ['entry_name', 'shortened_url_slug', 'full_url']
 
     @staticmethod
     def generate_random_slug():
